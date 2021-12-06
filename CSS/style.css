@@ -1,0 +1,185 @@
+/* to do : 1. Figure out how to style header to be one line
+           2.The rest of styling */
+html, body{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+color: seashell;
+background-color: black;
+
+text-align: center;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/* Nav Styling */
+nav{
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    top: 0;
+    height: 69px;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    flex-direction: row; 
+    justify-content: space-between; 
+    background-color: black;
+    
+}      
+nav li { 
+        list-style: none;
+        display: inline-block;
+        
+}
+
+#nav-locations{
+    padding-right: 15px;
+}
+    
+nav li a {
+        color: seashell ;
+}
+
+a:hover {
+    color: azure;
+    text-decoration: none;
+}
+
+.logo { 
+    height: 50px;
+    align-self: center;
+    padding-left: 10px;
+}
+
+ /* Header Styling */
+
+ header {
+    background-image: url(../CSS/images/img-mission-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    display: inline-flex;
+    top: 69px;
+    opacity: .9; 
+}
+
+.header-text {
+    align-self: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 0;
+    line-height: 1.75rem;
+    background-color: black;
+    color: seashell;
+}
+
+  /* Featured Teas Styling */
+
+  .totm {
+      margin:  auto;  
+      width: 1000px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+padding: 1rem;
+    }
+
+    #steeping{
+        padding:1rem;
+    }
+      
+  /* can't figure out how to set max width without contents aligning to the left */
+  
+  .teaoptions {
+     padding-top: 1.1rem;
+     display: flex;
+     flex-flow: wrap;
+     flex: 1 1;
+     justify-content: space-around;
+     /* justify-self: center; */
+     
+
+
+  }
+.totm-header { 
+  
+    opacity: .9;
+   
+
+}
+  
+.tea-picture{
+      max-width: 300px;
+      max-height: 200px;
+
+  }
+
+  /* Locations styles */
+
+.locations{
+      background-image: url(../CSS/images/img-locations-background.webp);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      opacity: 0.9;
+      height: 500px;
+      width: 1200px;
+      margin: auto;
+    
+      
+    }
+
+.address-container{
+      
+      
+      opacity: 1;
+      margin-top: 15px;
+      padding: 1.3rem 0px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    
+      
+  }
+
+.address{
+      width: 300px;
+      background-color: black;
+      margin: 15px 40px;
+
+  }
+h3{
+ padding-top:.5rem ;
+  }
+
+p{
+      line-height: 3rem;
+      
+  }
+
+#locations-header{
+    padding-top: .9rem;
+}
+
+/* Footer Styles */
+
+.footer {
+    height: 200px;
+    padding: 20px;
+    line-height: 3rem;
+
+}
+
+#copyright {
+    text-align: left;
+    
+}
